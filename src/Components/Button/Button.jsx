@@ -1,13 +1,12 @@
 import button from "./Button.module.scss";
 
-const Button = ({ text, bgColor, color, icon, padding }) => {
+const Button = ({ text, bgColor, color, icon }) => {
   return (
     <button
       className={`${button.btn} ${text ? `${button.text_btn}` : ""}`}
       style={{
         backgroundColor: `${bgColor}`,
         color: `${color}`,
-        padding: `${padding}`,
       }}
     >
       {text ? <p>{text}</p> : ""}
