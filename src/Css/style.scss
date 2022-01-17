@@ -1,0 +1,14 @@
+@import "./variables.scss";
+@import "./responsive.scss";
+@import "./font.scss";
+@import "./reset.scss";
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: $Body;
+  background-color: #fff;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+@import "../../Css//variables.scss";
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  min-width: 49px;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: $Button;
+  cursor: pointer;
+  height: 49px;
+  font-size: 18px;
+  svg {
+    font-size: 18px;
+  }
+  p {
+    font-family: $MainFont;
+    font-weight: regular;
+    font-size: 18px;
+    &:nth-child(even) {
+      margin-left: 12px;
+    }
+  }
+}
+
+.text_btn {
+  padding: 16px !important;
+}

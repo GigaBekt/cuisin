@@ -1,0 +1,71 @@
+//  Colors Primary
+$PrimaryDark: #0d1a2a;
+$PrimaryRed: #d41b1b;
+$PrimaryLight: #f5f5f5;
+
+//Colors Secondary
+$SecondaryLightBlue: #96c3e2;
+$SecondaryPurple: #95a5e9;
+$SecondaryGreen: #74bf83;
+$SecondaryYellow: #f6be4a;
+$SecondaryRed: #d13c2e;
+$Secondaryblue: #96c3e2;
+
+// Gray Color
+$Grey_900: #3c3c3c;
+$Grey_700: #626262;
+$Grey_500: #707071;
+$Grey_300: #8e8e8e;
+$Grey_100: #d1d1d2;
+
+// Font Size
+$Subtitle1: 24px;
+$Subtitle2: 20px;
+$Description: 18px;
+$Body: 16px;
+$Button: 18px;
+$Caption: 14px;
+$Navlinks: 15px;
+
+// Font
+$MainFont: "DM Sans", sans-serif;
+
+@mixin Heading {
+  font-family: $MainFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 120%;
+  letter-spacing: 0.0025em;
+}
+@mixin Heading2 {
+  font-family: $MainFont;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 140%;
+}
+
+@mixin Heading3 {
+  font-family: $MainFont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 120%;
+}
+
+@mixin Heading4 {
+  font-family: $MainFont;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 120%;
+}
+
+@mixin Heading5 {
+  font-family: $MainFont;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+}
