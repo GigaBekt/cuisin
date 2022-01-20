@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-// Css
 
+// Css
 import "./Css/style.scss";
 
 // Pages

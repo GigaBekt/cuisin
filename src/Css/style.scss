@@ -11,4 +11,7 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
+  @include mobile {
+    width: 100%;
+  }
 }
